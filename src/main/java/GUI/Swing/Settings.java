@@ -110,8 +110,7 @@ public class Settings extends javax.swing.JFrame {
         pack();
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         if (!"".equals(newTime.getText())) {
             FileIO.writeTime(Integer.parseInt(newTime.getText()));
             BackTrainer.popUpInNeed = false;
@@ -119,22 +118,19 @@ public class Settings extends javax.swing.JFrame {
         }
     }
 
-    private void jButton1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyTyped
-        // TODO add your handling code here:
+    private void jButton1KeyTyped(java.awt.event.KeyEvent evt) {
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             this.jButton1ActionPerformed(null);
         }
     }
 
-    private void jButton1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyReleased
-        // TODO add your handling code here:
+    private void jButton1KeyReleased(java.awt.event.KeyEvent evt) {
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             this.jButton1ActionPerformed(null);
         }
     }
 
-    private void newTimeKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_newTimeKeyReleased
-        // TODO add your handling code here:
+    private void newTimeKeyReleased(java.awt.event.KeyEvent evt) {
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             this.jButton1ActionPerformed(null);
         }

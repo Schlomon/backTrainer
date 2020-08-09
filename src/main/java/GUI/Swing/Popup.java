@@ -134,8 +134,7 @@ public class Popup extends javax.swing.JFrame {
         Popup.madePopUp = true;
     }
 
-    private void formWindowClosed(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosed
-        // TODO add your handling code here:
+    private void formWindowClosed(java.awt.event.WindowEvent evt) {
         BackTrainer.running = false;
     }
 
@@ -146,12 +145,10 @@ public class Popup extends javax.swing.JFrame {
     }
 
     private void noBtnKeyReleased(java.awt.event.KeyEvent evt) {
-        // TODO add your handling code here:
         formKeyReleased(evt);
     }
 
     private void yesBtnKeyReleased(java.awt.event.KeyEvent evt) {
-        // TODO add your handling code here:
         formKeyReleased(evt);
     }
 
