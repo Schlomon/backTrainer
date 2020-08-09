@@ -47,9 +47,9 @@ public class Popup extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/SitStraight.png")));
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        jLabel2.setText("Sitzen Sie gerade?");
+        jLabel2.setText("Do you sit straight?");
 
-        yesBtn.setText("Mach ich schon!");
+        yesBtn.setText("Doing it already!");
         yesBtn.addActionListener(this::yesBtnActionPerformed);
         yesBtn.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -57,7 +57,7 @@ public class Popup extends javax.swing.JFrame {
             }
         });
 
-        noBtn.setText("Danke für die Erinnerung!");
+        noBtn.setText("Thank you for the reminder!");
         noBtn.addActionListener(this::noBtnActionPerformed);
         noBtn.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -65,7 +65,7 @@ public class Popup extends javax.swing.JFrame {
             }
         });
 
-        waitBtn.setText("War gerade weg!");
+        waitBtn.setText("Just have been away!");
         waitBtn.addActionListener(this::jButton1ActionPerformed);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

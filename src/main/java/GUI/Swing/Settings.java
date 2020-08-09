@@ -40,9 +40,9 @@ public class Settings extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Einstellungen Rückentrainer");
+        setTitle("Settings back trainer");
 
-        jLabel1.setText("Wartezeit (min):");
+        jLabel1.setText("Time (min):");
 
         newTime.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
